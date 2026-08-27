@@ -491,6 +491,7 @@ input[type="range"] {
 .footer-col h4 { color: #fff; font-size: .95rem; margin-bottom: 12px; }
 .footer-col p { margin: 0 0 8px; }
 .footer-col a { color: #CBDAB9; font-size: .92rem; }
+.footer-note { font-size: .82rem; opacity: .75; }
 .footer-col a:hover { color: #fff; }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,.15);
