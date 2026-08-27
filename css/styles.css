@@ -486,6 +486,7 @@ input[type="range"] {
   padding-bottom: 32px;
 }
 .logo--footer { color: #fff; }
+.logo--footer:hover { color: var(--green-100); }
 .footer-brand p { color: #CBDAB9; font-size: .92rem; }
 .footer-col h4 { color: #fff; font-size: .95rem; margin-bottom: 12px; }
 .footer-col p { margin: 0 0 8px; }
