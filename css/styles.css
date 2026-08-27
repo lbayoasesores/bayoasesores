@@ -415,6 +415,13 @@ input[type="range"] {
   margin: 8px 0 0;
 }
 .form-hint a { font-weight: 600; white-space: nowrap; }
+.form-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
 .form-row--checkbox {
   display: flex;
   align-items: flex-start;
