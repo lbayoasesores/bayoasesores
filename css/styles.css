@@ -293,6 +293,11 @@ img { max-width: 100%; display: block; }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
+.cards-grid--services {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 780px;
+  margin: 0 auto;
+}
 .card {
   background: var(--white);
   border-radius: var(--radius);
@@ -304,13 +309,6 @@ img { max-width: 100%; display: block; }
 .card-icon { font-size: 1.8rem; margin-bottom: 12px; color: var(--green-600); }
 .card h3 { font-size: 1.05rem; }
 .card p { font-size: .93rem; margin: 0; }
-.cards-grid .card:last-child {
-  grid-column: 1 / -1;
-  max-width: 380px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 /* Calculadora */
 .calc-container {
   display: grid;
